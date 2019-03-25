@@ -1,5 +1,5 @@
-#Digital Communications Matlab Simulation Project for the performance of different modulation schemes, BPSK, QPSK, FSK, QAM(16-64) in an AWGN environment.
-*All simulations done by doing the following (**general steps**)
+# Digital Communications Matlab Simulation Project for the performance of different modulation schemes, BPSK, QPSK, FSK, QAM(16-64) in an AWGN environment.
+* All simulations done by doing the following (**general steps**)
 	* setup block diagram with AWGN: Eb/NO= 10 db and RandomIntegerGeneration: samples per frame = 50
 	* run simulation for 1000
 	* change AWGN powe to EbNo variable to draw BER vs Eb/No with bertool
@@ -15,10 +15,10 @@ the carrier signal: θ=0∘ for binary 1 and θ=180∘ for binary 0.
 * Special steps in simulation
 	* RandomIntegerGeneration: set size = 2
 
-##block diagaram and scatter output
+## block diagaram and scatter output
 ![block diagaram and scatter output](/BPSK/BPSK_Blocks_Scatterplots.PNG)
 
-##performance
+## performance
 ![block diagaram and scatter output](/BPSK/performance.PNG)
 
 ***BER = *** for 0 Eb/N0 = 10 db
@@ -35,10 +35,10 @@ and the other called space frequnecy for '0'
 * Special steps in simulation
 	* RandomIntegerGeneration: set size = 2 
 
-##block diagaram and scatter output
+## block diagaram and scatter output
 ![block diagaram and scatter output](/FSK/FSK_Blocks_Scatterplots.PNG)
 
-##performance
+## performance
 ![block diagaram and scatter output](/FSK/performance.PNG)
 
 ***BER = *** for 0.0019 Eb/N0 = 10 db
@@ -55,10 +55,10 @@ these four possible phase shifts sperated by 360°/4 = 90°. So our four QPSK ph
 * Special steps in simulation
 	* RandomIntegerGeneration: set size = 4
 
-##block diagaram and scatter output
+## block diagaram and scatter output
 ![block diagaram and scatter output](/QPSK/QPSK_Blocks_Scatterplots.PNG)
 
-##performance
+## performance
 ![block diagaram and scatter output](/QPSK/performance.PNG)
 
 ***BER = *** for 0.0019 Eb/N0 = 10 db
@@ -74,10 +74,10 @@ can be demodulated easily as there is phase shift 90° between sin and cos
 	* RandomIntegerGeneration: set size = 16
 	* Chose min avg. power for 'Normalization method' option in QAM transimitter block and QAM Receiver block.eoretical
 
-##block diagaram and scatter output
+## block diagaram and scatter output
 ![block diagaram and scatter output](/QAM16/QAM_Blocks_Scatterplots.PNG)
 
-##performance
+## performance
 ![block diagaram and scatter output](/QAM16/performance.PNG)
 
 ***BER = *** for 0.217 Eb/N0 = 10 db
@@ -90,10 +90,10 @@ Same idea as QAM 16 but with more combinations so more bits per symbol (6 bits)
 	* RandomIntegerGeneration: set size = 64 
 	* Chose min avg. power for 'Normalization method' option in QAM transimitter block and QAM Receiver block.
 
-##block diagaram and scatter output
+## block diagaram and scatter output
 ![block diagaram and scatter output](/QAM64/QAM_Blocks_Scatterplots.PNG)
 
-##performance
+## performance
 ![block diagaram and scatter output](/QAM64/performance.PNG)
 
 ***BER = *** for 0.651 Eb/N0 = 10 db
