@@ -38,6 +38,7 @@ It can be binary like PSK or more bits for symbol (I use binary in simulation). 
 ![block diagaram and scatter output](/FSK/performance.PNG)
 
 **BER** =  for 0.0019 Eb/N0 = 10 db
+
 ---
 
 # QPSK
@@ -55,6 +56,7 @@ In QPSK, the carrier varies in terms of phase and there are four possible phase 
 ![block diagaram and scatter output](/QPSK/performance.PNG)
 
 **BER** =  for 0.0019 Eb/N0 = 10 db
+
 ---
 
 # QAM 16
@@ -71,6 +73,7 @@ QAM is also antoher modulation scheme but this time we carry information in apli
 ![block diagaram and scatter output](/QAM-16/performance.PNG)
 
 **BER** =  for 0.217 Eb/N0 = 10 db
+
 ---
 
 # QAM 64
