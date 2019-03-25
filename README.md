@@ -1,4 +1,4 @@
-﻿#Digital Communications Matlab Simulation Project for the performance of different modulation schemes, BPSK, QPSK, FSK, QAM(16-64) in an AWGN environment.
+#Digital Communications Matlab Simulation Project for the performance of different modulation schemes, BPSK, QPSK, FSK, QAM(16-64) in an AWGN environment.
 *All simulations done by doing the following (**general steps**)
 	* setup block diagram with AWGN: Eb/NO= 10 db and RandomIntegerGeneration: samples per frame = 50
 	* run simulation for 1000
